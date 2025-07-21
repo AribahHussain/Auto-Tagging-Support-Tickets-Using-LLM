@@ -1,0 +1,15 @@
+Auto Tagging Support Tickets Using BERT (LLM-based Classification)
+
+This project leverages a fine-tuned BERT-based language model to automatically classify and tag IT support tickets. It utilizes natural language processing (NLP) techniques to understand ticket content and assign the most relevant category or label, such as Network Issue, Hardware Failure, or Software Bug. The goal is to streamline ticket management and assist support teams in prioritizing and routing issues efficiently.
+
+Key features:
+
+Preprocessing and encoding using Hugging Face Tokenizer.
+
+Fine-tuned transformer model (BERT) for multi-class classification.
+
+Visual representation of top tag predictions using softmax probabilities.
+
+Clean and interactive interface using Gradio (if applicable).
+
+Color-coded tag visualization for enhanced readability.
